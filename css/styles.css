@@ -18,4 +18,26 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: black;
+}
+.box-1 {
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  border: 1px solid white;
+  background-image: radial-gradient(circle, red 50px, white 50px);
+}
+.box-2 {
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  border: 1px solid white;
+  background-image: radial-gradient(circle at 100px, gold 50px, lightskyblue 50px);
+}
+.box-3 {
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  border: 1px solid white;
+  background-image: linear-gradient(red 20%, darkblue 20% 80%, red 80% 100%);
 }
